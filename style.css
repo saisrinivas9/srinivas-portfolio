@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0d1117;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+
+h1{
+    font-size:3rem;
+}
+
+.card{
+    background:#161b22;
+    margin:20px;
+    padding:20px;
+    border-radius:12px;
+    max-width:900px;
+}
+
+.card:hover{
+    transform:scale(1.02);
+    transition:0.3s;
+}

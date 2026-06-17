@@ -1,100 +1,230 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Sai Srinivas | Embedded Systems Engineer</title>
-<link rel="stylesheet" href="style.css">
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#0d1117;
-    color:white;
-}
-
-header{
-    text-align:center;
-    padding:80px 20px;
-}
-
-h1{
-    font-size:3rem;
-}
-
-section{
-    max-width:900px;
-    margin:auto;
-    padding:20px;
-}
-
-.card{
-    background:#161b22;
-    padding:20px;
-    margin:15px 0;
-    border-radius:10px;
-}
-
-a{
-    color:#58a6ff;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Bogapurapu Sai Srinivas, Embedded Systems Engineer specializing in STM32, ESP32, FreeRTOS, Embedded C, and connected hardware systems.">
+  <title>Bogapurapu Sai Srinivas | Embedded Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="page-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span class="brand-mark">BS</span>
+      <span>Embedded Portfolio</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<header>
-<h1>Bogapurapu Sai Srinivas</h1>
-<h2>Embedded Systems Engineer</h2>
-<p>STM32 • ESP32 • RTOS • PCB Design • Embedded C • Communication Protocols</p>
-</header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Embedded Systems Engineer</p>
+        <h1>Bogapurapu Sai Srinivas</h1>
+        <p class="hero-text">
+          Building reliable firmware, connected prototypes, and hardware-aware software for real-time embedded products.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="resume.pdf" download>Download Resume</a>
+        </div>
+        <div class="signal-row" aria-label="Engineering highlights">
+          <span>RTOS</span>
+          <span>MCU</span>
+          <span>PCB</span>
+          <span>IoT</span>
+        </div>
+      </div>
 
-<section>
+      <div class="hero-visual reveal" aria-label="Circuit board illustration">
+        <div class="chip-card">
+          <div class="chip-core">
+            <span>STM32</span>
+            <small>FreeRTOS Kernel</small>
+          </div>
+          <div class="pin pin-a"></div>
+          <div class="pin pin-b"></div>
+          <div class="pin pin-c"></div>
+          <div class="pin pin-d"></div>
+          <div class="trace trace-one"></div>
+          <div class="trace trace-two"></div>
+          <div class="trace trace-three"></div>
+          <div class="node node-one"></div>
+          <div class="node node-two"></div>
+          <div class="node node-three"></div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>About Me</h2>
-<p>
-B.Tech ECE student passionate about Embedded Systems,
-Microcontrollers, RTOS, Communication Protocols,
-PCB Design and Wireless Communication.
-</p>
-</div>
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Firmware thinking with product discipline.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="panel reveal">
+          <h3>Profile</h3>
+          <p>
+            I am an embedded systems engineer focused on microcontroller firmware, communication protocols, board bring-up, and IoT product development. I enjoy translating hardware requirements into dependable, testable software.
+          </p>
+        </article>
+        <article class="panel reveal">
+          <h3>Engineering Style</h3>
+          <p>
+            My work emphasizes clean C code, practical debugging, datasheet-driven decisions, and strong collaboration between firmware, hardware, and application teams.
+          </p>
+        </article>
+        <article class="panel reveal">
+          <h3>Current Focus</h3>
+          <p>
+            Real-time systems, low-power device behavior, ESP32 connectivity, STM32 peripherals, and production-ready embedded workflows.
+          </p>
+        </article>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Skills</h2>
-<ul>
-<li>C Programming</li>
-<li>Embedded C</li>
-<li>STM32</li>
-<li>ESP32</li>
-<li>FreeRTOS</li>
-<li>UART, SPI, I2C, CAN</li>
-<li>PCB Design</li>
-<li>Python</li>
-</ul>
-</div>
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools, protocols, and platforms I use.</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <span>STM32</span>
+        <span>ESP32</span>
+        <span>FreeRTOS</span>
+        <span>Embedded C</span>
+        <span>UART</span>
+        <span>SPI</span>
+        <span>I2C</span>
+        <span>CAN</span>
+        <span>PCB Design</span>
+        <span>Python</span>
+        <span>Linux</span>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Projects</h2>
-<ul>
-<li>RFID Based IoT Cloud Automation</li>
-<li>Wi-Fi Robo Soccer Bot using ESP32</li>
-<li>Fingerprint Based Blood Group Prediction</li>
-<li>5G NR Waveform Generation and Analysis</li>
-</ul>
-</div>
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected embedded systems work.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-image image-one"></div>
+          <div class="project-body">
+            <p class="project-tag">STM32 + FreeRTOS</p>
+            <h3>Real-Time Sensor Hub</h3>
+            <p>Multi-sensor acquisition platform using task scheduling, DMA-friendly drivers, and UART telemetry for diagnostics.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image image-two"></div>
+          <div class="project-body">
+            <p class="project-tag">ESP32 + IoT</p>
+            <h3>Wireless Device Monitor</h3>
+            <p>ESP32-based monitoring node with Wi-Fi data publishing, local status indicators, and structured fault reporting.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image image-three"></div>
+          <div class="project-body">
+            <p class="project-tag">CAN + PCB</p>
+            <h3>Industrial Control Interface</h3>
+            <p>Prototype control board concept with CAN messaging, protected I/O, and firmware designed for repeatable testing.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Contact</h2>
-<p>Email: yourmail@example.com</p>
-<p>LinkedIn: Add your LinkedIn profile link</p>
-    <a href="resume.pdf" target="_blank">
-    <button>Download Resume</button>
-</a>
-</div>
+    <section class="section timeline-section" id="journey">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Learning Journey</p>
+        <h2>Progress through hands-on systems work.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span>2023</span>
+          <h3>Embedded C Foundations</h3>
+          <p>Strengthened C programming, memory concepts, register-level thinking, and peripheral basics.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span>2024</span>
+          <h3>Microcontroller Projects</h3>
+          <p>Built STM32 and ESP32 prototypes using timers, GPIO, UART, SPI, I2C, and sensor integrations.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span>2025</span>
+          <h3>RTOS and Connectivity</h3>
+          <p>Explored FreeRTOS scheduling, queues, event groups, wireless data flows, and debugging workflows.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span>Now</span>
+          <h3>Product-Ready Firmware</h3>
+          <p>Focusing on clean architecture, board bring-up, testability, and robust embedded product behavior.</p>
+        </div>
+      </div>
+    </section>
 
-</section>
+    <section class="section" id="blog">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Technical Blog</p>
+        <h2>Notes from the lab bench.</h2>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card reveal">
+          <p>Firmware</p>
+          <h3>Designing UART logs that help during board bring-up</h3>
+          <a href="#" aria-label="Read UART blog placeholder">Read note</a>
+        </article>
+        <article class="blog-card reveal">
+          <p>RTOS</p>
+          <h3>When to use queues, semaphores, and event groups in FreeRTOS</h3>
+          <a href="#" aria-label="Read FreeRTOS blog placeholder">Read note</a>
+        </article>
+        <article class="blog-card reveal">
+          <p>Hardware</p>
+          <h3>Practical checklist for SPI and I2C sensor debugging</h3>
+          <a href="#" aria-label="Read sensor debugging blog placeholder">Read note</a>
+        </article>
+      </div>
+    </section>
 
+    <section class="section contact" id="contact">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Available for embedded roles and project collaboration.</h2>
+          <p>Reach out for firmware development, prototype support, or embedded systems opportunities.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:saisrinivas@example.com">saisrinivas@example.com</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Bogapurapu Sai Srinivas. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
